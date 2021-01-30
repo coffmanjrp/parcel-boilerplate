@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #333;
+  overflow: hidden;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-body {
+    padding: 30px;
+    h1 {
+      margin-bottom: 10px;
+    }
+    li {
+      border-bottom: #ccc solid 1px;
+      line-height: 2;
+    }
+    li:last-child {
+      border: 0;
+    }
+  }
+}
